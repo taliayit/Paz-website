@@ -20,10 +20,28 @@ header {
     background: linear-gradient(0deg, rgba(188, 188, 188, 1) 0%, rgba(144, 144, 144, 1) 23%);
 }
 
-.menu {
+.header-container {
     margin: 0 auto;
-    display: flex;
     width: 900px;
+}
+
+.menu {
+    justify-content: flex-end;
+}
+
+.menu,
+.search-box {
+    display: flex;
+}
+
+.search-box {
+    padding: 15px 0;
+    justify-content: flex-end;
+}
+
+.search-box>input {
+    border-top-right-radius: 5px;
+    border: none;
 }
 
 ul {
