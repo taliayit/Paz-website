@@ -17,7 +17,7 @@ footer {
 }
 
 header {
-    background: linear-gradient(0deg, rgba(188, 188, 188, 1) 0%, rgba(144, 144, 144, 1) 23%);
+    background: linear-gradient(0deg, rgba(188, 188, 188, 1) 0%, rgba(144, 144, 144, 1) 20%);
 }
 
 .header-container {
@@ -35,7 +35,7 @@ header {
 }
 
 .search-box {
-    padding: 15px 0;
+    padding: 20px 0 15px 0;
     justify-content: flex-end;
 }
 
@@ -116,4 +116,9 @@ ul {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
 }
