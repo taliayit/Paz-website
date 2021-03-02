@@ -30,6 +30,10 @@ header {
     justify-content: flex-end;
 }
 
+.footer-menu {
+    justify-content: flex-start;
+}
+
 .menu,
 .search-box,
 .footer-menu {
@@ -139,4 +143,22 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.footer-menu {
+    color: white;
+}
+
+.footer-menu>li>a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-menu>li:last-child>a {
+    color: red;
+}
+
+.footer-menu>.sep {
+    margin: 0 5px;
 }
