@@ -222,6 +222,9 @@ footer {
     width: 291px;
     height: 354px;
     border-bottom-right-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .bg-cards {
@@ -229,8 +232,16 @@ footer {
     color: white;
 }
 
+.card-title {
+    margin: 0 0 3px 0;
+    font-size: 14px;
+}
+
 .card-text {
     font-size: 13px;
+    margin: 0;
+    line-height: 1;
+    padding-left: 3px;
 }
 
 .card-link {
@@ -241,4 +252,15 @@ footer {
 
 .card-link>img {
     margin-right: 3px;
+}
+
+.text-container {
+    padding: 8px 10px 3px 10px;
+    margin: 6px;
+    background-image: url(../images/hp_tab_text_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 230px;
+    /* height: 97px; */
 }
