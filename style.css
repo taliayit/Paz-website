@@ -200,7 +200,8 @@ footer {
     flex: 1;
 }
 
-.bg-cards {
+.bg-cards,
+.sm-cards {
     justify-content: space-between;
 }
 
@@ -244,7 +245,7 @@ footer {
     padding-left: 3px;
 }
 
-.card-link {
+.bg-cards .card-link {
     font-size: 13px;
     color: white;
     float: left;
@@ -262,4 +263,17 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     width: 230px;
+}
+
+.sm-cards>[class^="card"] {
+    background-image: url(../images/small_cube_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 292px;
+    height: 216px;
+}
+
+.sm-cards {
+    margin: 18px 0;
 }
