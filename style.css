@@ -226,4 +226,15 @@ footer {
 
 .bg-cards {
     margin-top: 15px;
+    color: white;
+}
+
+.card-text {
+    font-size: 13px;
+}
+
+.card-link {
+    font-size: 13px;
+    color: white;
+    float: left;
 }
