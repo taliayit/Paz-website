@@ -20,6 +20,7 @@ header {
     background: linear-gradient(0deg, rgba(188, 188, 188, 1) 0%, rgba(144, 144, 144, 1) 20%);
 }
 
+.footer-container,
 .header-container {
     margin: 0 auto;
     width: 900px;
@@ -30,7 +31,8 @@ header {
 }
 
 .menu,
-.search-box {
+.search-box,
+.footer-menu {
     display: flex;
 }
 
