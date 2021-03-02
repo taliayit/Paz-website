@@ -98,7 +98,7 @@ ul {
     text-decoration: none;
     font-size: 12px;
     font-weight: bold;
-    padding: 3px 0 0 5px;
+    margin: 3px 0 0 16px;
 }
 
 
@@ -133,7 +133,6 @@ ul {
 }
 
 #home {
-    /* margin: 0; */
     width: 17px;
     height: 15px;
     background: url(../images/menu_home_blue.png);
@@ -222,4 +221,9 @@ footer {
     background-repeat: no-repeat;
     width: 291px;
     height: 354px;
+    border-bottom-right-radius: 25px;
+}
+
+.bg-cards {
+    margin-top: 15px;
 }
