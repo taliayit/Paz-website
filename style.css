@@ -238,3 +238,7 @@ footer {
     color: white;
     float: left;
 }
+
+.card-link>img {
+    margin-right: 3px;
+}
