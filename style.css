@@ -200,3 +200,26 @@ footer {
 .card {
     flex: 1;
 }
+
+.bg-cards {
+    justify-content: space-between;
+}
+
+.card1 {
+    background-image: url(../images/1908364606615453350.jpg);
+}
+
+.card2 {
+    background-image: url(../images/Picture-046410251500.jpg);
+}
+
+.card3 {
+    background-image: url(../images/פזקר_-291_354410564000.jpg);
+}
+
+.bg-cards>[class^="card"] {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 291px;
+    height: 354px;
+}
