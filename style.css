@@ -21,9 +21,20 @@ header {
 }
 
 .footer-container,
-.header-container {
+.header-container,
+.main {
     margin: 0 auto;
     width: 900px;
+}
+
+.header-container>.row,
+.menu,
+.search-box,
+.footer-menu,
+.main,
+.bg-cards,
+.sm-cards {
+    display: flex;
 }
 
 .header-container>.row,
@@ -35,11 +46,8 @@ header {
     justify-content: flex-start;
 }
 
-.header-container>.row,
-.menu,
-.search-box,
-.footer-menu {
-    display: flex;
+.main {
+    flex-direction: column;
 }
 
 .header-container>.row {
@@ -90,7 +98,7 @@ ul {
     text-decoration: none;
     font-size: 12px;
     font-weight: bold;
-    padding: 3px 0 0 15px;
+    padding: 3px 0 0 5px;
 }
 
 
@@ -187,4 +195,8 @@ footer {
     background: url(../images/fb_icon.png);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.card {
+    flex: 1;
 }
