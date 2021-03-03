@@ -7,10 +7,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
-    /* border: solid; */
-}
-
 header,
 footer {
     background-color: #909090;
@@ -22,7 +18,7 @@ header {
 
 .footer-container,
 .header-container,
-.main {
+main {
     margin: 0 auto;
     width: 900px;
 }
@@ -31,7 +27,6 @@ header {
 .menu,
 .search-box,
 .footer-menu,
-.main,
 .bg-cards,
 .sm-cards,
 .links-container {
@@ -47,7 +42,6 @@ header {
     justify-content: flex-start;
 }
 
-.main,
 .links-container {
     flex-direction: column;
 }
@@ -103,13 +97,7 @@ ul {
     margin: 3px 0 0 16px;
 }
 
-
-/* .dropdown-content>li>a {
-    display: block;
-} */
-
 .dropdown-content>li {
-    width: max-content;
     padding: 0 5px;
     border-bottom: 1px solid #bcbcbc;
 }
@@ -137,6 +125,7 @@ ul {
 #home {
     width: 17px;
     height: 15px;
+    margin: 2px 0;
     background: url(../images/menu_home_blue.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -168,7 +157,7 @@ footer {
 
 .footer-menu {
     color: white;
-    padding: 0 7px;
+    padding: 0;
     margin: 14px 0 6px 0;
 }
 
@@ -196,6 +185,10 @@ footer {
     background: url(../images/fb_icon.png);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.cards-container {
+    margin: 30px 0 68px 0;
 }
 
 .card {
@@ -226,13 +219,16 @@ footer {
 }
 
 .bg-cards {
-    margin-top: 15px;
     color: white;
 }
 
 .card-title {
-    margin: 0 0 3px 0;
+    margin: 0;
     font-size: 14px;
+}
+
+.bg-cards .card-title {
+    margin-bottom: 3px;
 }
 
 .card-text {
@@ -242,13 +238,17 @@ footer {
     padding-left: 3px;
 }
 
-.bg-cards .card-link {
-    font-size: 13px;
+.card-link {
     color: white;
+    font-size: 13px;
     float: left;
 }
 
-.text-container {
+.sm-cards .card-link {
+    color: #72716d;
+}
+
+.bg-cards .text-container {
     padding: 8px 10px 3px 10px;
     margin: 6px;
     background-image: url(../images/hp_tab_text_bg.png);
@@ -276,23 +276,17 @@ footer {
     padding: 10px 0;
 }
 
+.card-container {
+    padding: 0 24px;
+}
+
 .card4 .card-img,
 .card5 .card-img {
     padding: 10px 0;
 }
 
-.card-container {
-    padding: 0 24px;
-}
-
-.sm-cards .card-link {
-    font-size: 13px;
-    color: #72716d;
-}
-
 .card4 .card-link,
 .card5 .card-link {
-    float: left;
     margin-top: 7px;
 }
 
