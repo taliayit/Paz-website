@@ -7,10 +7,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header,
+
+/* header,
 footer {
     background-color: #909090;
-}
+} */
 
 header {
     background: linear-gradient(0deg, rgba(188, 188, 188, 1) 0%, rgba(144, 144, 144, 1) 15%);
@@ -112,7 +113,6 @@ ul {
     padding: 0;
     display: none;
     position: absolute;
-    background-color: #909090;
     background: linear-gradient(0deg, rgba(144, 144, 144, 1) 85%, rgba(188, 188, 188, 1) 100%);
 }
 

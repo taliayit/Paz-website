@@ -73,6 +73,10 @@ form>div>label,
     padding: 13px 24px;
 }
 
+.form-wrapper>.card-title {
+    padding-bottom: 7px;
+}
+
 .form-text,
 .contact-cards .card-text {
     padding: 0 24px;
@@ -114,10 +118,21 @@ form textarea {
 form input[type="button"] {
     float: left;
     width: max-content;
+    padding: 1px 8px;
+    font-size: 14px;
+    color: white;
+    border: 1px solid #dedede;
+    border-top-right-radius: 7px;
+    background: linear-gradient(0deg, rgba(1, 90, 147, 1) 50%, rgba(146, 217, 246, 1) 100%);
+}
+
+form input[type="button"]:hover {
+    color: #3c3c3c;
+    background: linear-gradient(0deg, rgba(244, 143, 8, 1) 20%, rgba(252, 228, 31, 1) 100%);
 }
 
 form input {
     width: 160px;
-    padding: 3px;
+    padding: 5px;
     border: 1px solid #808992;
 }
