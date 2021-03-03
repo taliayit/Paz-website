@@ -63,3 +63,24 @@
     height: 356px;
     margin-top: 10px;
 }
+
+.contact-cards .card-title {
+    font-size: 15px;
+    color: #005ca0;
+    margin: 0;
+    padding: 15px 24px;
+}
+
+.contact-cards .card-text {
+    padding-right: 24px;
+}
+
+.contact-cards .card-text p {
+    margin: 0;
+    font-size: 13px;
+    color: #6d6d6d;
+}
+
+.card-text p:first-child {
+    font-weight: bold;
+}

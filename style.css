@@ -224,7 +224,7 @@ footer {
     color: white;
 }
 
-.card-title {
+.cards-container .card-title {
     margin: 0;
     font-size: 14px;
 }
