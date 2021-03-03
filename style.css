@@ -282,16 +282,11 @@ footer {
 
 .card4 .card-img,
 .card5 .card-img {
-    padding: 10px 0;
+    margin: 13px 0;
 }
 
-.card4 .card-link,
-.card5 .card-link {
-    margin-top: 7px;
-}
-
-.card6 .card-link {
-    padding: 3px 0;
+.sm-cards .card-link {
+    margin: 3px 0;
 }
 
 .links-container {
