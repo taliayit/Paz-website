@@ -141,3 +141,11 @@ form input {
     padding: 2px;
     border: 1px solid #808992;
 }
+
+.card2 a {
+    text-decoration: none;
+}
+
+.card2 a:hover {
+    text-decoration: underline;
+}

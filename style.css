@@ -7,12 +7,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-/* header,
-footer {
-    background-color: #909090;
-} */
-
 header {
     background: linear-gradient(0deg, rgba(188, 188, 188, 1) 0%, rgba(144, 144, 144, 1) 15%);
 }
@@ -60,9 +54,7 @@ main {
 .search-box>a {
     width: 19px;
     height: 19px;
-    background: url(../images/search_button.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url(../images/search_button.png) no-repeat center;
     margin-right: 1px;
 }
 
@@ -83,15 +75,9 @@ ul {
     margin-bottom: 10px;
 }
 
-.sm-cards .card-link:hover,
-.bg-cards .card-link:hover,
-.navigation>a,
-.side-menu>li>a:hover,
-.menu li a:hover,
-.footer-menu li a:hover,
-.lang:hover {
-    text-decoration: underline;
-    color: #005ca0;
+a:hover {
+    text-decoration: underline !important;
+    color: #005ca0 !important;
 }
 
 .lang {
@@ -130,9 +116,7 @@ ul {
     width: 17px;
     height: 15px;
     margin: 2px 0;
-    background: url(../images/menu_home_blue.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url(../images/menu_home_blue.png) no-repeat center;
 }
 
 .dropdown>a {
@@ -186,9 +170,7 @@ footer {
     display: block;
     width: 18px;
     height: 18px;
-    background: url(../images/fb_icon.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url(../images/fb_icon.png) no-repeat center;
 }
 
 .cards-container {
@@ -200,23 +182,21 @@ footer {
 }
 
 .bg-cards .card1 {
-    background-image: url(../images/1908364606615453350.jpg);
+    background: url(../images/1908364606615453350.jpg) no-repeat center;
 }
 
 .bg-cards .card2 {
-    background-image: url(../images/Picture-046410251500.jpg);
+    background: url(../images/Picture-046410251500.jpg) no-repeat center;
 }
 
 .bg-cards .card3 {
-    background-image: url(../images/פזקר_-291_354410564000.jpg);
+    background: url(../images/פזקר_-291_354410564000.jpg) no-repeat center;
 }
 
 .bg-cards>[class^="card"] {
-    background-position: center;
-    background-repeat: no-repeat;
     width: 291px;
     height: 354px;
-    border-bottom-right-radius: 25px;
+    border-bottom-right-radius: 22px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -255,17 +235,13 @@ footer {
 .bg-cards .text-container {
     padding: 8px 10px 3px 10px;
     margin: 6px;
-    background-image: url(../images/hp_tab_text_bg.png);
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url(../images/hp_tab_text_bg.png) no-repeat center;
     background-size: cover;
     width: 230px;
 }
 
 .sm-cards>[class^="card"] {
-    background-image: url(../images/small_cube_bg.png);
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url(../images/small_cube_bg.png) no-repeat center;
     background-size: cover;
     width: 291px;
     height: 216px;
