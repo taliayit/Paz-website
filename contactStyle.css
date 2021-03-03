@@ -42,11 +42,17 @@
     margin-right: 144px;
 }
 
-.contact-title,
-.sm-cards .card-link {
+.contact-title {
     color: #72716d;
     font-size: 15px;
-    margin-top: 24px;
+    margin: 24px 0 0 0;
     padding-bottom: 4px;
     border-bottom: 1px solid #cbcbcb;
+}
+
+.contact-cards>[class^="card"] {
+    background: url(../images/cube_bg.png) no-repeat 0 0;
+    width: 292px;
+    height: 175px;
+    margin-bottom: 20px;
 }
