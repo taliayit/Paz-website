@@ -1,5 +1,5 @@
 .contact-container {
-    padding: 18px 0;
+    padding: 18px 0 60px 0;
 }
 
 .contact-container>nav {
@@ -143,6 +143,7 @@ form input {
 }
 
 .card2 a {
+    color: blue;
     text-decoration: none;
 }
 
