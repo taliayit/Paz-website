@@ -68,7 +68,7 @@
     font-size: 15px;
     color: #005ca0;
     margin: 0;
-    padding: 15px 24px;
+    padding: 13px 24px;
 }
 
 .contact-cards .card-text {
@@ -81,6 +81,7 @@
     color: #6d6d6d;
 }
 
-.card-text p:first-child {
+.card2>.card-text p,
+.card1>.card-text p:first-child {
     font-weight: bold;
 }
