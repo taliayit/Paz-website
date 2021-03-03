@@ -24,6 +24,8 @@
     padding: 12px;
 }
 
+form>div>label,
+.form-text>p:last-child,
 .navigation,
 .navigation>a {
     font-size: 12px;
@@ -56,8 +58,6 @@
     margin-bottom: 20px;
 }
 
-form {}
-
 .form-wrapper {
     background: url(../images/contact_form_bg.png) no-repeat 0 10px;
     border-top: 1px solid #cbcbcb;
@@ -78,6 +78,7 @@ form {}
     padding: 0 24px;
 }
 
+form label,
 .form-wrapper p,
 .contact-cards .card-text p {
     margin: 0;
@@ -89,4 +90,34 @@ form {}
 .card2>.card-text p,
 .card1>.card-text p:first-child {
     font-weight: bold;
+}
+
+form {
+    text-align: center;
+    margin: 10px 70px;
+}
+
+form>div {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+form textarea {
+    color: #6d6d6d;
+    width: 100%;
+    height: 100px;
+    padding: 3px;
+    border: 1px solid #808992;
+}
+
+form input[type="button"] {
+    float: left;
+    width: max-content;
+}
+
+form input {
+    width: 160px;
+    padding: 3px;
+    border: 1px solid #808992;
 }
