@@ -56,3 +56,10 @@
     height: 175px;
     margin-bottom: 20px;
 }
+
+.form-wrapper {
+    background: url(../images/contact_form_bg.png) no-repeat 0 0;
+    width: 383px;
+    height: 356px;
+    margin-top: 10px;
+}
