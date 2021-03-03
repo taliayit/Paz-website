@@ -281,12 +281,19 @@ footer {
     justify-content: space-between;
 }
 
+.bg-cards .card-link>i {
+    background: url(../images/read_more_white.png) no-repeat;
+}
+
+.sm-cards .card-link>i {
+    background: url(../images/read_more_yellow.png) no-repeat;
+}
+
 .card-link:hover>i {
     background: url(../images/read_more_blue.png) no-repeat;
 }
 
 .card-link>i {
-    background: url(../images/read_more_yellow.png) no-repeat;
     width: 8px;
     height: 9px;
     float: left;
