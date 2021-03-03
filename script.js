@@ -4,7 +4,7 @@ var i = 0;
 function change() {
     var imgElement = document.getElementById("img");
     imgElement.src = "../images/" + images[i] + ".jpg";
-    i > 1 ? i = 0 : i++;
+    i == images.length - 1 ? i = 0 : i++;
 }
 
 window.onload = function() {
