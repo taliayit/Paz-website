@@ -197,15 +197,15 @@ footer {
     flex: 1;
 }
 
-.card1 {
+.bg-cards .card1 {
     background-image: url(../images/1908364606615453350.jpg);
 }
 
-.card2 {
+.bg-cards .card2 {
     background-image: url(../images/Picture-046410251500.jpg);
 }
 
-.card3 {
+.bg-cards .card3 {
     background-image: url(../images/פזקר_-291_354410564000.jpg);
 }
 
@@ -306,60 +306,4 @@ footer {
 .card-link>img {
     float: left;
     margin: 3px;
-}
-
-
-/* contact style */
-
-.contact-container {
-    padding: 18px 0;
-}
-
-.contact-container>nav {
-    position: absolute;
-}
-
-.side-menu {
-    padding: 0;
-    margin: 0;
-    border-top: 1px solid #dedede;
-}
-
-.navigation,
-.navigation>a,
-.side-menu>li>a {
-    color: #5c5c5c;
-    text-decoration: none;
-}
-
-.side-menu>li>a {
-    font-size: 13px;
-    padding: 12px;
-}
-
-.navigation,
-.navigation>a {
-    font-size: 12px;
-}
-
-.side-menu>li {
-    background: url(../images/side_menu_sprite.png) no-repeat 100%;
-    width: 122px;
-    height: 36px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.contact-left {
-    margin-right: 144px;
-}
-
-.contact-title,
-.sm-cards .card-link {
-    color: #72716d;
-    font-size: 15px;
-    margin-top: 24px;
-    padding-bottom: 4px;
-    border-bottom: 1px solid #cbcbcb;
 }
