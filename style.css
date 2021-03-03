@@ -82,6 +82,7 @@ ul {
     margin-bottom: 10px;
 }
 
+.side-menu>li>a:hover,
 .menu li a:hover,
 .footer-menu li a:hover,
 .lang:hover {
@@ -304,4 +305,38 @@ footer {
 .card-link>img {
     float: left;
     margin: 3px;
+}
+
+
+/* contact style */
+
+.contact-container {
+    padding: 18px 0;
+}
+
+.contact-container>nav {
+    display: inline-block;
+}
+
+.side-menu {
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid #dedede;
+}
+
+.side-menu>li>a {
+    display: block;
+    font-size: 13px;
+    color: #5c5c5c;
+    text-decoration: none;
+    padding: 0 12px;
+}
+
+.side-menu>li {
+    background: url(../images/side_menu_sprite.png) no-repeat 100%;
+    width: 122px;
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
