@@ -83,6 +83,8 @@ ul {
     margin-bottom: 10px;
 }
 
+.sm-cards .card-link:hover,
+.bg-cards .card-link:hover,
 .navigation>a,
 .side-menu>li>a:hover,
 .menu li a:hover,
@@ -303,7 +305,14 @@ footer {
     justify-content: space-between;
 }
 
-.card-link>img {
+.card-link:hover>i {
+    background: url(../images/read_more_blue.png) no-repeat;
+}
+
+.card-link>i {
+    background: url(../images/read_more_yellow.png) no-repeat;
+    width: 8px;
+    height: 9px;
     float: left;
     margin: 3px;
 }
