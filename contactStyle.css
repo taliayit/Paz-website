@@ -47,7 +47,6 @@
     font-size: 15px;
     margin: 24px 0 0 0;
     padding-bottom: 4px;
-    border-bottom: 1px solid #cbcbcb;
 }
 
 .contact-cards>[class^="card"] {
@@ -57,11 +56,16 @@
     margin-bottom: 20px;
 }
 
-.form-wrapper {
+form {
     background: url(../images/contact_form_bg.png) no-repeat 0 0;
     width: 383px;
     height: 356px;
     margin-top: 10px;
+}
+
+.form-wrapper {
+    border-top: 1px solid #cbcbcb;
+    padding-left: 55px;
 }
 
 .contact-cards .card-title {
