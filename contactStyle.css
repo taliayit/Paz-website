@@ -32,7 +32,7 @@ form>div>label,
 }
 
 .side-menu>li {
-    background: url(../images/side_menu_sprite.png) no-repeat 100%;
+    background: url(images/side_menu_sprite.png) no-repeat 100%;
     width: 122px;
     height: 36px;
     display: flex;
@@ -52,14 +52,14 @@ form>div>label,
 }
 
 .contact-cards>[class^="card"] {
-    background: url(../images/cube_bg.png) no-repeat 0 0;
+    background: url(images/cube_bg.png) no-repeat 0 0;
     width: 292px;
     height: 175px;
     margin-bottom: 20px;
 }
 
 .form-wrapper {
-    background: url(../images/contact_form_bg.png) no-repeat 55px 10px;
+    background: url(images/contact_form_bg.png) no-repeat 55px 10px;
     border-top: 1px solid #cbcbcb;
     padding: 10px 0 0 55px;
     width: 383px;

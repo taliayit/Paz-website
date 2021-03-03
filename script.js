@@ -3,7 +3,7 @@ var i = 0;
 
 function change() {
     var imgElement = document.getElementById("img");
-    imgElement.src = "../images/" + images[i] + ".jpg";
+    imgElement.src = "images/" + images[i] + ".jpg";
     i == images.length - 1 ? i = 0 : i++;
 }
 
