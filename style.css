@@ -315,7 +315,7 @@ footer {
 }
 
 .contact-container>nav {
-    display: inline-block;
+    position: absolute;
 }
 
 .side-menu {
@@ -324,12 +324,16 @@ footer {
     border-top: 1px solid #dedede;
 }
 
+.navigation,
+.navigation>a,
 .side-menu>li>a {
-    display: block;
     font-size: 13px;
     color: #5c5c5c;
     text-decoration: none;
-    padding: 0 12px;
+}
+
+.side-menu>li>a {
+    padding: 12px;
 }
 
 .side-menu>li {
@@ -339,4 +343,8 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.contact-left {
+    margin-right: 144px;
 }
