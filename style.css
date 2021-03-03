@@ -82,6 +82,7 @@ ul {
     margin-bottom: 10px;
 }
 
+.navigation>a,
 .side-menu>li>a:hover,
 .menu li a:hover,
 .footer-menu li a:hover,
@@ -327,13 +328,18 @@ footer {
 .navigation,
 .navigation>a,
 .side-menu>li>a {
-    font-size: 13px;
     color: #5c5c5c;
     text-decoration: none;
 }
 
 .side-menu>li>a {
+    font-size: 13px;
     padding: 12px;
+}
+
+.navigation,
+.navigation>a {
+    font-size: 12px;
 }
 
 .side-menu>li {
@@ -347,4 +353,13 @@ footer {
 
 .contact-left {
     margin-right: 144px;
+}
+
+.contact-title,
+.sm-cards .card-link {
+    color: #72716d;
+    font-size: 15px;
+    margin-top: 24px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #cbcbcb;
 }
